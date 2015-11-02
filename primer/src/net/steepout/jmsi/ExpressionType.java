@@ -1,0 +1,9 @@
+package net.steepout.jmsi;
+
+public enum ExpressionType{
+	STATIC_FUNCTION_INVOKE,
+	DYNAMIC_METHOD_INVOKE,
+	DYNAMIC_CONSTRUCTOR_INVOKE,
+	GET_VALUE,
+	SET_VALUE;
+}
